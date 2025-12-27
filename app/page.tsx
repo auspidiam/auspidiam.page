@@ -5,34 +5,61 @@ export default function Home() {
       <h1 className="text-4xl font-semibold tracking-tight">Auspidiam</h1>
 
       {/* header rule: 1px */}
-      <hr className="mt-0.5 border-0 border-t border-black" />
+      <hr className="mt-0.5 w-full border-t border-solid border-black" />
 
       {/* box area: spaced so it doesn't touch header/footer rules */}
-      <section aria-label="Homepage boxes" className="mt-10 mb-10 flex-1">
-        {/* Two horizontals (top + bottom) */}
-        <div className="grid grid-cols-3 border-y border-black">
-          {/* Vertical strokes: left edge + two dividers + right edge */}
+      <section
+        aria-label="Homepage boxes"
+        className="relative mt-10 mb-10 flex-1 w-full min-h-[640px]"
+      >
+        {/* Overlay lines drawn with explicit coordinates to avoid class purging */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0"
+          style={{ insetInline: "1%", insetBlock: "0" }}
+        >
+          {/* Center spine */}
           <div
-            id="box-1"
-            data-box="1"
-            aria-label="Box 1"
-            className="min-h-[260px] border-l border-black"
+            style={{
+              position: "absolute",
+              insetBlock: "1.5rem",
+              insetInlineStart: "50%",
+              width: "2px",
+              backgroundColor: "rgba(64,64,64,0.8)",
+              transform: "translateX(-50%)",
+            }}
           />
-          <div
-            id="box-2"
-            data-box="2"
-            aria-label="Box 2"
-            className="min-h-[260px] border-l border-black"
-          />
-          <div
-            id="box-3"
-            data-box="3"
-            aria-label="Box 3"
-            className="min-h-[260px] border-l border-r border-black"
-          />
-        </div>
 
-        {/* Boxes 4–6 will be the second row later. */}
+          {/* Left column horizontals */}
+          {["35%", "68%"].map((top) => (
+            <div
+              key={`left-${top}`}
+              style={{
+                position: "absolute",
+                top,
+                left: "4%",
+                width: "40%",
+                height: "2px",
+                backgroundColor: "rgba(64,64,64,0.8)",
+              }}
+            />
+          ))}
+
+          {/* Right column horizontals */}
+          {["35%", "68%"].map((top) => (
+            <div
+              key={`right-${top}`}
+              style={{
+                position: "absolute",
+                top,
+                left: "56%",
+                width: "40%",
+                height: "2px",
+                backgroundColor: "rgba(64,64,64,0.8)",
+              }}
+            />
+          ))}
+        </div>
       </section>
     </main>
   );
