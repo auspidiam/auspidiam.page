@@ -1,38 +1,42 @@
 // app/page.tsx
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="flex flex-1 flex-col py-12">
-      <h1 className="text-4xl font-semibold tracking-tight">Auspidiam</h1>
+      <div className="flex items-end">
+        <Image
+          src="/AuspidiamCursive.png"
+          alt="Auspidiam"
+          width={420}
+          height={90}
+          priority
+          className="h-16 w-auto"
+        />
+      </div>
 
       {/* header rule: 1px */}
-      <hr className="mt-0.5 border-0 border-t border-black" />
+      <hr className="mt-[-8px] w-full border-t border-solid border-black/100 border-t-[0.5px]" />
 
-      {/* box area: spaced so it doesn't touch header/footer rules */}
-      <section aria-label="Homepage boxes" className="mt-10 mb-10 flex-1">
-        {/* Two horizontals (top + bottom) */}
-        <div className="grid grid-cols-3 border-y border-black">
-          {/* Vertical strokes: left edge + two dividers + right edge */}
-          <div
-            id="box-1"
-            data-box="1"
-            aria-label="Box 1"
-            className="min-h-[260px] border-l border-black"
-          />
-          <div
-            id="box-2"
-            data-box="2"
-            aria-label="Box 2"
-            className="min-h-[260px] border-l border-black"
-          />
-          <div
-            id="box-3"
-            data-box="3"
-            aria-label="Box 3"
-            className="min-h-[260px] border-l border-r border-black"
-          />
+      {/* body with central line and copy */}
+      <section className="relative mt-10 mb-10 flex-1 w-full min-h-[520px]">
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0"
+          style={{
+            left: "50%",
+            width: "1px",
+            backgroundColor: "#000",
+            transform: "translateX(-50%)",
+            insetBlock: "0.75rem",
+          }}
+        />
+        <div className="flex h-full items-center">
+          <p className="max-w-xl text-lg leading-relaxed">
+            Auspidiam is a creative force whose roots span mountains and sprouts
+            will the air.
+          </p>
         </div>
-
-        {/* Boxes 4–6 will be the second row later. */}
       </section>
     </main>
   );
