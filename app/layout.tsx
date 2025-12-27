@@ -1,12 +1,11 @@
 // app/layout.tsx
 import "./globals.css";
 import type { Metadata } from "next";
-import { K2D } from "next/font/google";
-import NavPanel from "@/components/NavPanel";
+import { Inter } from "next/font/google";
 
-const k2d = K2D({
+const inter = Inter({
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -20,17 +19,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={k2d.className}>
-      <body className="min-h-screen flex flex-col">
-        {/* Draggable nav on every page */}
-        <NavPanel />
+    <html lang="en" className={inter.className}>
+      <body className="min-h-screen bg-white text-black">
+        {/* NYT-like page gutters + readable max width */}
+        <div className="mx-auto flex min-h-screen w-full max-w-[1100px] flex-col px-6 sm:px-8 md:px-12">
+          {children}
 
-        {children}
-
-        <footer className="mt-auto z-10 w-full text-xs px-12 flex justify-between">
-          <span>ཀུན་བཟང་རྡོ་རྗེ་</span>
-          <span>2000 - present</span>
-        </footer>
+          <footer className="mt-auto py-10 text-sm">
+            <div className="flex items-center gap-4">
+              {/* vertical line */}
+              <div className="h-6 w-px bg-black/30" aria-hidden="true" />
+              <span>ཀུན་བཟང་རྡོ་རྗེ་</span>
+            </div>
+          </footer>
+        </div>
       </body>
     </html>
   );
