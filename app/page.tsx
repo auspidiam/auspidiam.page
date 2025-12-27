@@ -5,7 +5,7 @@ export default function Home() {
       <h1 className="text-4xl font-semibold tracking-tight">Auspidiam</h1>
 
       {/* closer + thinner */}
-      <hr className="mt-0.5 border-0 border-t-[0.5px] border-black" />
+      <hr className="mt-0.5 border-0 border-t-[1px] border-black" />
     </main>
   );
 }
