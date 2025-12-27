@@ -10,38 +10,53 @@ export default function Home() {
       {/* box area: spaced so it doesn't touch header/footer rules */}
       <section
         aria-label="Homepage boxes"
-        className="relative mt-10 mb-10 flex-1 w-full min-h-[620px]"
+        className="relative mt-10 mb-10 flex-1 w-full min-h-[640px]"
       >
-        {/* Internal grid strokes only: two verticals + two horizontals */}
+        {/* Overlay lines drawn with explicit coordinates to avoid class purging */}
         <div
-          className="pointer-events-none absolute inset-0 z-10"
           aria-hidden
+          className="pointer-events-none absolute inset-0"
+          style={{ insetInline: "1%", insetBlock: "0" }}
         >
+          {/* Center spine */}
           <div
-            className="absolute inset-y-6 w-px bg-neutral-500/80"
-            style={{ left: "33.333%" }}
+            style={{
+              position: "absolute",
+              insetBlock: "1.5rem",
+              insetInlineStart: "50%",
+              width: "2px",
+              backgroundColor: "rgba(64,64,64,0.8)",
+              transform: "translateX(-50%)",
+            }}
           />
-          <div
-            className="absolute inset-y-6 w-px bg-neutral-500/80"
-            style={{ left: "66.666%" }}
-          />
-          <div
-            className="absolute inset-x-2 h-px bg-neutral-500/80"
-            style={{ top: "33.333%" }}
-          />
-          <div
-            className="absolute inset-x-2 h-px bg-neutral-500/80"
-            style={{ top: "66.666%" }}
-          />
-        </div>
 
-        <div className="grid h-full min-h-[520px] grid-cols-3 grid-rows-3">
-          {Array.from({ length: 9 }).map((_, index) => (
+          {/* Left column horizontals */}
+          {["35%", "68%"].map((top) => (
             <div
-              key={index}
-              id={`box-${index + 1}`}
-              data-box={index + 1}
-              aria-label={`Box ${index + 1}`}
+              key={`left-${top}`}
+              style={{
+                position: "absolute",
+                top,
+                left: "4%",
+                width: "40%",
+                height: "2px",
+                backgroundColor: "rgba(64,64,64,0.8)",
+              }}
+            />
+          ))}
+
+          {/* Right column horizontals */}
+          {["35%", "68%"].map((top) => (
+            <div
+              key={`right-${top}`}
+              style={{
+                position: "absolute",
+                top,
+                left: "56%",
+                width: "40%",
+                height: "2px",
+                backgroundColor: "rgba(64,64,64,0.8)",
+              }}
             />
           ))}
         </div>
