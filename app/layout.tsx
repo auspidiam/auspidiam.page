@@ -26,8 +26,8 @@ export default function RootLayout({
 
           {/* footer line (thin) */}
           <footer className="mt-auto border-t-[0.5px] border-black pt-14 pb-10 text-sm">
-            <div className="flex items-center justify-end">
-              <span className="text-right">ཀུན་བཟང་རྡོ་རྗེ་</span>
+            <div className="flex items-center justify-start">
+              <span className="text-left">© ཀུན་བཟང་རྡོ་རྗེ་ | 2000 - now.</span>
             </div>
           </footer>
         </div>
