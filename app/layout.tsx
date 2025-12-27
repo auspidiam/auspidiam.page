@@ -25,7 +25,7 @@ export default function RootLayout({
           {children}
 
           {/* footer line (thin) */}
-          <footer className="mt-auto border-t-[0.5px] border-black pt-12 pb-10 text-sm">
+          <footer className="mt-auto border-t-[0.5px] border-black pt-14 pb-10 text-sm">
             <div className="flex items-center justify-end">
               <span className="text-right">ཀུན་བཟང་རྡོ་རྗེ་</span>
             </div>
