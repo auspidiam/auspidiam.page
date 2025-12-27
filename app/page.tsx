@@ -34,15 +34,15 @@ export default function Home() {
         />
 
         {/* two text columns */}
-        <div className="relative z-10 grid h-full grid-cols-2 gap-x-20">
+        <div className="relative z-10 grid h-full grid-cols-2 gap-x-24">
           <div className="flex items-start justify-start">
-            <p className="mt-8 max-w-xl pr-8 text-left text-lg leading-relaxed">
+            <p className="mt-8 max-w-xl pr-12 text-left text-lg leading-relaxed">
               Auspidiam is a creative force whose roots span mountains and
               sprouts will the air.
             </p>
           </div>
           <div className="flex items-start justify-start">
-            <p className="mt-8 max-w-xl pl-8 text-left text-lg leading-relaxed">
+            <p className="mt-8 max-w-xl pl-16 text-left text-lg leading-relaxed">
               Decentralized outlets serve as the menu of my expressions - of
               which, I am no master, but a puppet to my imagination.
             </p>
