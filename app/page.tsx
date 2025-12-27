@@ -5,34 +5,46 @@ export default function Home() {
       <h1 className="text-4xl font-semibold tracking-tight">Auspidiam</h1>
 
       {/* header rule: 1px */}
-      <hr className="mt-0.5 border-0 border-t border-black" />
+      <hr className="mt-0.5 w-full border-t border-solid border-black" />
 
       {/* box area: spaced so it doesn't touch header/footer rules */}
-      <section aria-label="Homepage boxes" className="mt-10 mb-10 flex-1">
-        {/* Two horizontals (top + bottom) */}
-        <div className="grid grid-cols-3 border-y border-black">
-          {/* Vertical strokes: left edge + two dividers + right edge */}
+      <section
+        aria-label="Homepage boxes"
+        className="relative mt-10 mb-10 flex-1 w-full min-h-[620px]"
+      >
+        {/* Internal grid strokes only: two verticals + two horizontals */}
+        <div
+          className="pointer-events-none absolute inset-0 z-10"
+          aria-hidden
+        >
           <div
-            id="box-1"
-            data-box="1"
-            aria-label="Box 1"
-            className="min-h-[260px] border-l border-black"
+            className="absolute inset-y-6 w-px bg-neutral-500/80"
+            style={{ left: "33.333%" }}
           />
           <div
-            id="box-2"
-            data-box="2"
-            aria-label="Box 2"
-            className="min-h-[260px] border-l border-black"
+            className="absolute inset-y-6 w-px bg-neutral-500/80"
+            style={{ left: "66.666%" }}
           />
           <div
-            id="box-3"
-            data-box="3"
-            aria-label="Box 3"
-            className="min-h-[260px] border-l border-r border-black"
+            className="absolute inset-x-2 h-px bg-neutral-500/80"
+            style={{ top: "33.333%" }}
+          />
+          <div
+            className="absolute inset-x-2 h-px bg-neutral-500/80"
+            style={{ top: "66.666%" }}
           />
         </div>
 
-        {/* Boxes 4–6 will be the second row later. */}
+        <div className="grid h-full min-h-[520px] grid-cols-3 grid-rows-3">
+          {Array.from({ length: 9 }).map((_, index) => (
+            <div
+              key={index}
+              id={`box-${index + 1}`}
+              data-box={index + 1}
+              aria-label={`Box ${index + 1}`}
+            />
+          ))}
+        </div>
       </section>
     </main>
   );
