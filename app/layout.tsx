@@ -25,10 +25,9 @@ export default function RootLayout({
           {children}
 
           {/* footer line (thin) */}
-          <footer className="mt-auto border-t-[0.5px] border-black pt-10 pb-10 text-sm">
+          <footer className="mt-auto border-t-[0.5px] border-black pt-12 pb-10 text-sm">
             <div className="flex items-center gap-4">
-              {/* vertical divider */}
-              <div className="h-6 w-px bg-black" aria-hidden="true" />
+            <div className="h-6 w-px bg-black" aria-hidden="true" />
               <span>ཀུན་བཟང་རྡོ་རྗེ་</span>
             </div>
           </footer>
