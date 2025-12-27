@@ -24,10 +24,8 @@ export default function RootLayout({
         <div className="mx-auto flex min-h-screen w-full max-w-[1100px] flex-col px-6 sm:px-8 md:px-12">
           {children}
 
-          {/* footer separator: thinner */}
-          <hr className="mt-auto border-0 border-t border-black" />
-
-          <footer className="py-10 text-sm">
+          {/* footer line (thin) */}
+          <footer className="mt-auto border-t-[0.5px] border-black pt-10 pb-10 text-sm">
             <div className="flex items-center gap-4">
               {/* vertical divider */}
               <div className="h-6 w-px bg-black" aria-hidden="true" />
