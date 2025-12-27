@@ -4,8 +4,8 @@ export default function Home() {
     <main className="flex-1 py-12">
       <h1 className="text-4xl font-semibold tracking-tight">Auspidiam</h1>
 
-      {/* top rule: closer to title */}
-      <div className="mt-1.5 h-px w-full bg-black/20" />
+      {/* very close + clearly visible */}
+      <hr className="mt-1 border-0 border-t-2 border-black" />
     </main>
   );
 }
