@@ -28,7 +28,7 @@ export default function RootLayout({
           <footer className="mt-auto border-t-[0.5px] border-black pt-12 pb-10 text-sm">
             <div className="flex items-center gap-4">
             <div className="h-6 w-px bg-black" aria-hidden="true" />
-              <span>ཀུན་བཟང་རྡོ་རྗེ་</span>
+              <span className="text-right">ཀུན་བཟང་རྡོ་རྗེ་</span>
             </div>
           </footer>
         </div>
