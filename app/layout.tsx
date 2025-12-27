@@ -21,13 +21,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <body className="min-h-screen bg-white text-black">
-        {/* NYT-like page gutters + readable max width */}
         <div className="mx-auto flex min-h-screen w-full max-w-[1100px] flex-col px-6 sm:px-8 md:px-12">
           {children}
 
-          <footer className="mt-auto py-10 text-sm">
+          {/* footer separator (thinner than the top rule) */}
+          <hr className="mt-auto border-black/10 border-t-[0.5px]" />
+
+          <footer className="py-10 text-sm">
             <div className="flex items-center gap-4">
-              {/* vertical line */}
               <div className="h-6 w-px bg-black/30" aria-hidden="true" />
               <span>ཀུན་བཟང་རྡོ་རྗེ་</span>
             </div>
