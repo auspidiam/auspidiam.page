@@ -1,39 +1,23 @@
-// app/layout.tsx
-import "./globals.css";
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+/* file: app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
+:root {
+  --background-white: #ffffff;
+  --text-black: #000000;
+  --text-red: #ff0000;
+}
 
-export const metadata: Metadata = {
-  title: "Auspidiam",
-  description: "ennui renaissance",
-};
+body {
+  background-color: var(--background-white);
+  color: var(--text-black);
+}
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en" className={inter.className}>
-      <body className="min-h-screen bg-white text-black">
-        {/* NYT-like page gutters + readable max width */}
-        <div className="mx-auto flex min-h-screen w-full max-w-[1100px] flex-col px-6 sm:px-8 md:px-12">
-          {children}
+a {
+  color: var(--text-black);
+}
 
-          <footer className="mt-auto py-10 text-sm">
-            <div className="flex items-center gap-4">
-              {/* vertical line */}
-              <div className="h-6 w-px bg-black/30" aria-hidden="true" />
-              <span>ཀུན་བཟང་རྡོ་རྗེ་</span>
-            </div>
-          </footer>
-        </div>
-      </body>
-    </html>
-  );
+h2 {
+  font-weight: normal;
 }
