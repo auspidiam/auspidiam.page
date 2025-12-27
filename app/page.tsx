@@ -17,10 +17,22 @@ export default function Home() {
           className="pointer-events-none absolute inset-0 z-10"
           aria-hidden
         >
-          <div className="absolute inset-y-6 left-1/3 w-px bg-neutral-500/80" />
-          <div className="absolute inset-y-6 left-2/3 w-px bg-neutral-500/80" />
-          <div className="absolute inset-x-2 top-1/3 h-px bg-neutral-500/80" />
-          <div className="absolute inset-x-2 top-2/3 h-px bg-neutral-500/80" />
+          <div
+            className="absolute inset-y-6 w-px bg-neutral-500/80"
+            style={{ left: "33.333%" }}
+          />
+          <div
+            className="absolute inset-y-6 w-px bg-neutral-500/80"
+            style={{ left: "66.666%" }}
+          />
+          <div
+            className="absolute inset-x-2 h-px bg-neutral-500/80"
+            style={{ top: "33.333%" }}
+          />
+          <div
+            className="absolute inset-x-2 h-px bg-neutral-500/80"
+            style={{ top: "66.666%" }}
+          />
         </div>
 
         <div className="grid h-full min-h-[520px] grid-cols-3 grid-rows-3">
