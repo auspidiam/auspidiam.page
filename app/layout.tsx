@@ -44,8 +44,8 @@ export default function RootLayout({
 
         <div className="fixed bottom-8 right-4 z-10 sm:bottom-10 sm:right-8 md:right-10">
           <Image
-            src="/YellowSubmarine.png"
-            alt="Yellow submarine illustration"
+            src="/BrownSubmarine.png"
+            alt="Brown submarine illustration"
             width={128}
             height={80}
             className="h-16 w-auto sm:h-20"
