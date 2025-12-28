@@ -1,5 +1,6 @@
 // app/page.tsx
 import Image from "next/image";
+import FlowSection from "@/components/FlowSection";
 
 export default function Home() {
   return (
@@ -20,9 +21,7 @@ export default function Home() {
 
       {/* body copy only */}
       <section className="relative mt-10 mb-10 flex-1 w-full min-h-[320px]">
-        <p className="max-w-4xl text-left text-lg leading-relaxed">
-          Auspidiam is the creative force whose roots span <a href="https://en.wikipedia.org/wiki/Himalayas" target="_blank" rel="noopener noreferrer">mountains</a> and sprouts <a href="https://plato.stanford.edu/entries/determinism-causal/" target="_blank" rel="noopener noreferrer">will</a> the air.
-        </p>
+        <FlowSection />
       </section>
     </main>
   );
