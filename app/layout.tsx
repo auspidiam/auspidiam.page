@@ -25,8 +25,18 @@ export default function RootLayout({
           {children}
 
           <footer className="mt-auto pt-14 pb-10 text-sm">
-            <div className="flex items-center justify-start">
+            <div className="flex flex-wrap items-end justify-between gap-6">
               <span className="text-left">© ཀུན་བཟང་རྡོ་རྗེ་ 2026</span>
+
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/YellowSubmarine.png"
+                alt="Yellow submarine illustration"
+                width={300}
+                height={140}
+                className="h-[104px] w-auto -translate-y-1 transform sm:h-[120px] md:h-[136px]"
+                loading="eager"
+              />
             </div>
           </footer>
         </div>
