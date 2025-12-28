@@ -24,8 +24,7 @@ export default function RootLayout({
         <div className="mx-auto flex min-h-screen w-full max-w-[980px] flex-col px-5 sm:px-7 md:px-9">
           {children}
 
-          {/* footer line (thin) */}
-          <footer className="mt-auto border-t-[0.5px] border-black pt-14 pb-10 text-sm">
+          <footer className="mt-auto pt-14 pb-10 text-sm">
             <div className="flex items-center justify-start">
               <span className="text-left">© ཀུན་བཟང་རྡོ་རྗེ་ 2026</span>
             </div>
