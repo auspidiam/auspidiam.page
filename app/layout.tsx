@@ -31,8 +31,8 @@ export default function RootLayout({
 
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/YellowSubmarine.png"
-                alt="Yellow submarine illustration"
+                src="/BrownSubmarine.png"
+                alt="Brown submarine illustration"
                 width={300}
                 height={140}
                 className="h-[104px] w-auto -translate-y-1 transform sm:h-[120px] md:h-[136px]"
