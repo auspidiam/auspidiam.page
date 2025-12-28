@@ -1,5 +1,6 @@
 // app/page.tsx
 import Image from "next/image";
+import FlowSection from "@/components/FlowSection";
 
 export default function Home() {
   return (
