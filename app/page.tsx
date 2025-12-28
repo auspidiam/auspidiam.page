@@ -15,6 +15,8 @@ export default function Home() {
         />
       </div>
 
+      <p className="mt-4 text-sm sm:hidden">© ཀུན་བཟང་རྡོ་རྗེ་ 2026</p>
+
       {/* header rule: 1px */}
       <hr className="mt-[-8px] w-full border-t border-solid border-black border-t-[0.5px]" />
 
