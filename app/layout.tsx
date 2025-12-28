@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <body className="min-h-screen bg-white text-black">
-        <div className="mx-auto flex min-h-screen w-full max-w-[1100px] flex-col px-6 sm:px-8 md:px-12">
+        <div className="mx-auto flex min-h-screen w-full max-w-[1280px] flex-col px-4 sm:px-6 md:px-8">
           {children}
 
           {/* footer line (thin) */}
