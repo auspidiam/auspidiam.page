@@ -7,6 +7,7 @@
   --background-white: #ffffff;
   --text-black: #000000;
   --text-red: #ff0000;
+  --link-green: #0f3d1e;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 }
 
 a {
-  color: var(--text-black);
+  color: var(--link-green);
 }
 
 h2 {
