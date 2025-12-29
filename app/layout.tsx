@@ -1,7 +1,6 @@
 // app/layout.tsx
 import "./globals.css";
 import type { Metadata } from "next";
-import Image from "next/image";
 import { Inter } from "next/font/google";
 
 const inter = Inter({
@@ -26,18 +25,20 @@ export default function RootLayout({
           {children}
 
           <footer className="mt-auto pt-14 pb-10 text-sm">
-            <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-end sm:justify-between">
+            <div className="flex flex-row items-end justify-between gap-4 sm:gap-6">
+              <span className="text-left text-[11px] sm:text-sm whitespace-nowrap translate-y-3 sm:translate-y-[7px] transform">
+                © ཀུན་བཟང་རྡོ་རྗེ་ 2026
+              </span>
+
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/BrownSubmarine.png"
                 alt="Brown submarine illustration"
                 width={300}
                 height={140}
-                className="order-1 h-[104px] w-auto -translate-y-1 transform sm:order-2 sm:h-[120px] md:h-[136px]"
+                className="h-[56px] w-auto shrink-0 -translate-y-10 sm:h-[130px] sm:-translate-y-13 md:h-[150px] md:-translate-y-14"
                 loading="eager"
               />
-
-              <span className="order-2 text-left sm:order-1">© ཀུན་བཟང་རྡོ་རྗེ་ 2026</span>
             </div>
           </footer>
         </div>
