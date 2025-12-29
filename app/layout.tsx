@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <body className="min-h-screen bg-white text-black">
-        <div className="mx-auto flex min-h-screen w-full max-w-[900px] flex-col px-6 sm:px-8 md:px-10">
+        <div className="mx-auto flex min-h-screen w-full max-w-[800px] flex-col px-8 sm:px-10 md:px-12">
           {children}
 
           <footer className="mt-auto pt-14 pb-10 text-sm">
