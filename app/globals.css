@@ -85,45 +85,45 @@ h2 {
 }
 
 .rail-offset {
-  padding-right: 8.25rem;
+  padding-right: 6.75rem;
 }
 
 @media (min-width: 640px) {
   .rail-offset {
-    padding-right: 9rem;
+    padding-right: 7.5rem;
   }
 }
 
 @media (min-width: 768px) {
   .rail-offset {
-    padding-right: 10rem;
+    padding-right: 8.5rem;
   }
 }
 
 @media (min-width: 1024px) {
   .rail-offset {
-    padding-right: 11.25rem;
+    padding-right: 9.5rem;
   }
 }
 
 .rail-safe {
-  padding-right: 4.75rem;
+  padding-right: 3.75rem;
 }
 
 @media (min-width: 640px) {
   .rail-safe {
-    padding-right: 5.5rem;
+    padding-right: 4.5rem;
   }
 }
 
 @media (min-width: 768px) {
   .rail-safe {
-    padding-right: 6.5rem;
+    padding-right: 5.25rem;
   }
 }
 
 @media (min-width: 1024px) {
   .rail-safe {
-    padding-right: 7.5rem;
+    padding-right: 6rem;
   }
 }
