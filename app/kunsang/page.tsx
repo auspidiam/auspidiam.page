@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 export default function KunsangPage() {
   return (
     <PageContent
-      heading="Kun·sang"
-      phonetic="/placeholder/"
+      heading="ཀུན་བཟང་"
+      phonetic="/ko͞onˌsôNG/"
       paragraphs={[
         "Placeholder text for Kun·sang. Replace this with the opening statement when content is ready.",
         "Additional placeholder paragraph for Kun·sang. Swap in contextual notes or links later.",
