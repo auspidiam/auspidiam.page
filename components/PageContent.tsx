@@ -44,6 +44,15 @@ export default function PageContent({ heading, phonetic, paragraphs }: PageConte
       </main>
 
       <nav className="nav-fixed-rail nav-stack flex flex-col items-center" aria-label="Roots and sprouts logomarks">
+        <Link href="/roots" aria-label="Go to the Roots page">
+          <Image
+            src="/RootsCursive.png"
+            alt="Roots cursive wordmark"
+            width={180}
+            height={72}
+            className="h-auto w-[84px] sm:w-[96px] md:w-[112px] lg:w-[128px]"
+          />
+        </Link>
         <Link href="/kunsang" aria-label="Go to the Kunsang page">
           <Image
             src="/KunsangCursive.png"
@@ -57,15 +66,6 @@ export default function PageContent({ heading, phonetic, paragraphs }: PageConte
           <Image
             src="/SproutsCursive.png"
             alt="Sprouts cursive wordmark"
-            width={180}
-            height={72}
-            className="h-auto w-[84px] sm:w-[96px] md:w-[112px] lg:w-[128px]"
-          />
-        </Link>
-        <Link href="/roots" aria-label="Go to the Roots page">
-          <Image
-            src="/RootsCursive.png"
-            alt="Roots cursive wordmark"
             width={180}
             height={72}
             className="h-auto w-[84px] sm:w-[96px] md:w-[112px] lg:w-[128px]"
