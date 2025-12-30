@@ -3,12 +3,10 @@ import Link from "next/link";
 import { ReactNode } from "react";
 
 type PageContentProps = {
-  heading: string;
-  phonetic: string;
-  paragraphs: ReactNode[];
+  children: ReactNode;
 };
 
-export default function PageContent({ heading, phonetic, paragraphs }: PageContentProps) {
+export default function PageContent({ children }: PageContentProps) {
   return (
     <div className="relative flex flex-row">
       <main className="rail-offset flex flex-1 flex-col py-12">
@@ -30,16 +28,7 @@ export default function PageContent({ heading, phonetic, paragraphs }: PageConte
 
         {/* body copy only */}
         <section className="rail-safe relative mt-10 mb-16 flex-1 w-full min-h-[320px] space-y-6 text-lg leading-relaxed">
-          <p className="max-w-4xl text-left">
-            <strong className="block text-[1.5rem] font-semibold leading-tight">{heading}</strong>
-            <em className="block italic text-xl">{phonetic}</em>
-          </p>
-
-          {paragraphs.map((paragraph, index) => (
-            <p key={index} className="max-w-4xl text-left">
-              {paragraph}
-            </p>
-          ))}
+          {children}
         </section>
       </main>
 

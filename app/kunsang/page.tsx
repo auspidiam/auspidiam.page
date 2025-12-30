@@ -8,14 +8,23 @@ export const metadata: Metadata = {
 
 export default function KunsangPage() {
   return (
-    <PageContent
-      heading="Kun·sang"
-      phonetic="/ko͞onˌsôNG/"
-      paragraphs={[
-        "Placeholder text for Kun·sang. Replace this with the opening statement when content is ready.",
-        "Additional placeholder paragraph for Kun·sang. Swap in contextual notes or links later.",
-        "Use this space for extended description specific to Kun·sang once finalized.",
-      ]}
-    />
+    <PageContent>
+      <p className="max-w-4xl text-left">
+        <strong className="block text-[1.5rem] font-semibold leading-tight">Kun·sang</strong>
+        <em className="block italic text-xl">/ko͞onˌsôNG/</em>
+      </p>
+
+      <p className="max-w-4xl text-left">
+        Placeholder text for Kun·sang. Replace this with the opening statement when content is ready.
+      </p>
+
+      <p className="max-w-4xl text-left">
+        Additional placeholder paragraph for Kun·sang. Swap in contextual notes or links later.
+      </p>
+
+      <p className="max-w-4xl text-left">
+        Use this space for extended description specific to Kun·sang once finalized.
+      </p>
+    </PageContent>
   );
 }
