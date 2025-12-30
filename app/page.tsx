@@ -82,27 +82,34 @@ export default function Home() {
         </section>
       </main>
 
-      <nav className="nav-fixed-rail nav-stack flex flex-col items-end" aria-label="Roots and sprouts logomarks">
+      <nav className="nav-fixed-rail nav-stack flex flex-col items-center" aria-label="Roots and sprouts logomarks">
         <Image
           src="/KunsangCursive.png"
           alt="Kunsang cursive wordmark"
           width={180}
           height={72}
-          className="h-auto w-[104px] sm:w-[122px] md:w-[142px] lg:w-[164px]"
+          className="h-auto w-[96px] sm:w-[112px] md:w-[130px] lg:w-[148px]"
         />
         <Image
           src="/SproutsCursive.png"
           alt="Sprouts cursive wordmark"
           width={180}
           height={72}
-          className="h-auto w-[104px] sm:w-[122px] md:w-[142px] lg:w-[164px]"
+          className="h-auto w-[96px] sm:w-[112px] md:w-[130px] lg:w-[148px]"
         />
         <Image
           src="/RootsCursive.png"
           alt="Roots cursive wordmark"
           width={180}
           height={72}
-          className="h-auto w-[104px] sm:w-[122px] md:w-[142px] lg:w-[164px]"
+          className="h-auto w-[96px] sm:w-[112px] md:w-[130px] lg:w-[148px]"
+        />
+        <Image
+          src="/Arrow.png"
+          alt="Arrow illustration"
+          width={187}
+          height={779}
+          className="h-auto w-[26px] sm:w-[30px] md:w-[34px] lg:w-[38px]"
         />
       </nav>
     </div>
