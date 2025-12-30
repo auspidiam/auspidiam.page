@@ -22,7 +22,11 @@ export default function Home() {
         {/* body copy only */}
         <section className="rail-safe relative mt-10 mb-16 flex-1 w-full min-h-[320px] space-y-6 text-lg leading-relaxed">
           <p className="max-w-4xl text-left">
-            <strong>Auspidiam</strong> is the creative force whose roots span{" "}
+            <strong className="block text-[1.5rem] font-semibold leading-tight">Aus·pi·diam</strong>
+            <em className="block italic text-xl">/ôˈspiˈdēˌem/</em>
+          </p>
+          <p className="max-w-4xl text-left">
+            Auspidiam is the creative force whose roots span{" "}
             <a href="https://en.wikipedia.org/wiki/Himalayas" target="_blank" rel="noopener noreferrer">
               mountains
             </a>{" "}
