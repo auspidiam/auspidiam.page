@@ -54,28 +54,28 @@ export default function Home() {
           alt="Kunsang cursive wordmark"
           width={180}
           height={72}
-          className="h-auto w-[96px] sm:w-[112px] md:w-[130px] lg:w-[148px]"
+          className="h-auto w-[84px] sm:w-[96px] md:w-[112px] lg:w-[128px]"
         />
         <Image
           src="/SproutsCursive.png"
           alt="Sprouts cursive wordmark"
           width={180}
           height={72}
-          className="h-auto w-[96px] sm:w-[112px] md:w-[130px] lg:w-[148px]"
+          className="h-auto w-[84px] sm:w-[96px] md:w-[112px] lg:w-[128px]"
         />
         <Image
           src="/RootsCursive.png"
           alt="Roots cursive wordmark"
           width={180}
           height={72}
-          className="h-auto w-[96px] sm:w-[112px] md:w-[130px] lg:w-[148px]"
+          className="h-auto w-[84px] sm:w-[96px] md:w-[112px] lg:w-[128px]"
         />
         <Image
           src="/Arrow.png"
           alt="Arrow illustration"
           width={187}
           height={779}
-          className="h-auto w-[26px] sm:w-[30px] md:w-[34px] lg:w-[38px]"
+          className="h-auto w-[22px] sm:w-[26px] md:w-[30px] lg:w-[34px]"
         />
       </nav>
     </div>
