@@ -39,6 +39,44 @@ export default function Home() {
           </p>
           <p className="max-w-4xl text-left">
             Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
+            your eye without pressing on the story.Scroll to see how the marks remain anchored; like cairns on a trail, they stay where you left them, guiding
             your eye without pressing on the story.
           </p>
         </section>
