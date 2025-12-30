@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function KunsangPage() {
   return (
     <PageContent
-      heading="ཀུན་བཟང་"
+      heading="Kun·sang"
       phonetic="/ko͞onˌsôNG/"
       paragraphs={[
         "Placeholder text for Kun·sang. Replace this with the opening statement when content is ready.",
