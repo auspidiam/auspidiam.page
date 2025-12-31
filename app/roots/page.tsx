@@ -16,11 +16,11 @@ export default function RootsPage() {
 
       <p className="max-w-4xl text-left">
         Not to be confused with the 
-        <a href="https://en.wikipedia.org/wiki/The_Roots" target="_blank" rel="noopener noreferrer"> band</a>. 
-        My roots comrpise the nomadic pastoralists of
-        <a href="https://en.wikipedia.org/wiki/Changtang" target="_blank" rel="noopener noreferrer"> Changthang </a> 
-        and the tax paying nobility of
-        <a href="https://en.wikipedia.org/wiki/Gyirong_County" target="_blank" rel="noopener noreferrer"> Kyirong</a>.
+        <a href="https://en.wikipedia.org/wiki/The_Roots" target="_blank" rel="noopener noreferrer">band</a>. 
+        My roots comrpise the nomadic pastoralists of 
+        <a href="https://en.wikipedia.org/wiki/Changtang" target="_blank" rel="noopener noreferrer">Changthang</a> 
+        and the tax paying nobility of 
+        <a href="https://en.wikipedia.org/wiki/Gyirong_County" target="_blank" rel="noopener noreferrer">Kyirong</a>.
       </p>
 
       <p className="max-w-4xl text-left">
