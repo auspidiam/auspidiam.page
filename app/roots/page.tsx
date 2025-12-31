@@ -30,11 +30,11 @@ export default function RootsPage() {
       </p>
 
       <p className="max-w-4xl text-left">
-        For millienia, they they were entrenched within the cultural heartland of the world's roof.
+        For millienia, they they were entrenched within the cultural heartland of the world&apos;s roof.
       </p>
 
       <p className="max-w-4xl text-left">
-        They've since propagated to Kiratadese and, more recently, to the Northeastern Coastal Forests of America.
+        They&apos;ve since propagated to Kiratadese and, more recently, to the Northeastern Coastal Forests of America.
       </p>
     </PageContent>
   );
